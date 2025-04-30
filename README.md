@@ -190,6 +190,11 @@ All of said things can be installed in debian-based systems with
 ```bash
 sudo apt install lzip git build-essential rsync xorriso curl
 ```
+SMPrun.sh -- run w/ 4 cores instead of 1
+br.sh -- build & run 
+install.sh -- no touchy (env setup)
+nographicsRun.sh -- runs headless, no gui
+run.sh -- called by br.sh
 
 ## Licensing
 
