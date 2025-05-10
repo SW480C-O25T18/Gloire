@@ -1,11 +1,11 @@
 #!/bin/sh
 
 # Option A (debugging turned on):
-# set -ex
+set -eux
 # set -euo pipefail
 
 # Option B (quiet, but still safe):
-set -euo pipefail
+# set -euo pipefail
 
 # Let the user pass their own $SUDO (or doas).
 : "${SUDO:=sudo}"
